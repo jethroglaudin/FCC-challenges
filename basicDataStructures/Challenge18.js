@@ -52,7 +52,5 @@ for (let names in users){
 }
   return onlineUsers;
   // change code above this line
-
 }
-
 console.log(countOnline(users));
