@@ -36,7 +36,7 @@ function getArrayOfUsers(obj) {
 //     arr.push((Object.keys(obj[user])))
 //   }
 //   return arr
- return Object.keys(obj)
+ return Object.keys(obj);
  
   // change code above this line
 }
