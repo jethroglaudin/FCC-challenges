@@ -1,0 +1,1 @@
+let yourArray = ['Jethro', 'Glaudin', 23, true, 'April', 92]; // change this line
