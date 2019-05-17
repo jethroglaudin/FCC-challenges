@@ -1,20 +1,14 @@
-// Basic Algorithm Scripting: Title Case a Sentence
+// Basic Algorithm Scripting: Boo who
 
-// Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
+// Check if a value is classified as a boolean primitive. Return true or false.
 
-// For the purpose of this exercise, you should also capitalize connecting words like "the" and "of".
+// Boolean primitives are true and false.
 
-// Remember to use Read-Search-Ask if you get stuck. Write your own code.
+// Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
 
-function titleCase(str) {
-  let lowStr = str.toLowerCase().split(' ');
-  let array = lowStr.map(function(newStr){
-    let answer = newStr.replace(newStr[0], newStr[0].toUpperCase());
-    return answer;
-    
-  });
-
-  return array.join(' ');
+function booWho(bool) {
+  // What is the new fad diet for ghost developers? The Boolean.
+  return typeof(bool) === 'boolean';
 }
 
-titleCase("I'm a little tea pot");
+booWho(null);
