@@ -13,7 +13,7 @@ function sumPrimes(num) {
   let range = [];
   
   for (let i = 2; i <= num; i++){
-    // if is prime number push into range
+    // if prime number push into range array
     if (isPrimeNumber(i)){
       range.push(i);
     }
