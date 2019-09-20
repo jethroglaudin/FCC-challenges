@@ -4,17 +4,23 @@ function convertToRoman(num) {
 
     let value = null;
 
+    let romanLength = romanNumerals.length;
+    let romanDec = romanEquavalent.length;
+
+    console.log("romanNumeral array length: " + romanLength + "");
+    console.log("romanEqualvalent array length: " + romanLength + "");
+
 
     // check the number based on the roman Equivalent
     // Try to find where the value is nearest. so if we get 30 get 5
 
-    for(let i = 0; i <= romanEquavalent.length; i++){
-        if (num == romanEquavalent[i]){
-            value = romanEquavalent[i];
-        }
-    }
+    // for(let i = 0; i <= romanEquavalent.length; i++){
+    //     if (num == romanEquavalent[i]){
+    //         value = romanEquavalent[i];
+    //     }
+    // }
 
-    console.log(value);
+    // console.log(value);
 
      return num;
 
