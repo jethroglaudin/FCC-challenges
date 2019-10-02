@@ -7,7 +7,7 @@ function myReplace(str, before, after) {
     // before is uppercase. If so make after uppercase also. Else leave after as is.
     function isUpper(value){
         if(value.charCodeAt(0) >= 65 && value.charCodeAt(0) <= 90)
-           return after = after.replace(/^\w/gi, after[0].toUpperCase())
+           return after = after.replace(/^\w/, after[0].toUpperCase())
          else 
             return after  
     }
