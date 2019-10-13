@@ -7,7 +7,7 @@ function smallestCommons(arr) {
     for (let i = max; i >= min; i--){
       rangeArr.push(i);
     }
-    let lcm = max;
+    let lcm = min;
   
     for(let j = 0; j < rangeArr.length; j++){
       let GCD = gcd(lcm, rangeArr[j])
