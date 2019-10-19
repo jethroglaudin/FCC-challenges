@@ -24,7 +24,7 @@ function binaryAgent(str) {
   console.log(newStr)
 
 
-  return str;
+  return newStr;
 }
 
 binaryAgent(
