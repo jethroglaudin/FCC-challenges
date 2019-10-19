@@ -5,14 +5,15 @@ function whatIsInAName(collection, source) {
     // Only change code below this line
     
    var arr = collection.filter((element) => {
-        for(let i in element){
-            if(element[i] == source[i]){
-                console.log(element)
+        for(let i in source){
+            if(element[i] !== source[i]){
+                return false
             }
         }
+        return true
         
     })
-    // console.log(arr)
+    console.log(arr)
 
     
   
@@ -23,3 +24,4 @@ function whatIsInAName(collection, source) {
   
   whatIsInAName([{ "apple": 1, "bat": 2 }, { "apple": 1 }, { "apple": 1, "bat": 2, "cookie": 2 }, { "bat":2 }], { "apple": 1, "bat": 2 })
   //should return [{ "apple": 1, "bat": 2 }, { "apple": 1, "bat": 2, "cookie": 2 }]
+  // 20:31
