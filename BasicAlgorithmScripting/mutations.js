@@ -17,7 +17,7 @@ function mutation(arr) {
 
         }
 
-    console.log(condition)
+    
     return condition
   }
   mutation(["hello", "hey"])
