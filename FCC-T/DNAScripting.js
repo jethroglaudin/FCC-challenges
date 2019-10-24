@@ -14,6 +14,7 @@ function pairElement(str) {
         break;
       case "G":
         dnaArr.push(["G", "C"]);
+        break;
     }
   }
   console.log(dnaArr);
@@ -22,3 +23,4 @@ function pairElement(str) {
 }
 
 pairElement("GCG");
+//T 5:45
