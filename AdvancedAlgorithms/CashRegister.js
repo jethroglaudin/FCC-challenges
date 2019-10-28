@@ -1,7 +1,7 @@
 function checkCashRegister(price, cash, cid) {
     var change;
     // Here is your change, ma'am.
-    console.log(cid[0])
+   
     return change;
   }
   
