@@ -17,6 +17,7 @@ function smallestCommons(arr) {
         multiple+= max;
     }
     console.log(multiple);
+    // 13:34
 
     // Solution 2
 
